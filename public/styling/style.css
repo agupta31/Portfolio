@@ -73,7 +73,11 @@ body{
 	}
 
 }
-
+.jumbotron .myImage{
+    height:250px;
+    width:250px;
+    border-radius:50%;
+}
 @media (max-width:480px) {
 	.imageIcon{
 		height:70px;

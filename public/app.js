@@ -2,13 +2,30 @@ angular.module("myApp",["ngRoute"]).
   config(function($routeProvider){
      $routeProvider
          .when("/",{
-               templateUrl:"partials/landing.html"
+               templateUrl:"partials/landing.html",
+               controller:"appCtrl"
      })
      .when("/aboutMe",{
-             templateUrl:"partials/aboutMe.html"
+             templateUrl:"partials/aboutMe.html",
+             controller:"aboutMe_Ctrl"
+     })
+     .when("/portfolio",{
+              templateUrl:"partials/portfolio.html",
+              controller:"port_Ctrl"
      })
 })
-
+.controller("appCtrl",function(){
+    
+})
+.controller("aboutMe_Ctrl",function($scope){
+     var el=angular.element(document.querySelector(".carousel"));
+    el.carousel({
+        interval:2000
+    });
+})
+.controller("port_Ctrl",function(){
+    
+})
 .directive("navDirective",function(){
        return{
            restrict:"AE",
