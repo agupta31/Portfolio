@@ -1,0 +1,11 @@
+body{
+    background:url(https://static.pexels.com/photos/479/landscape-nature-sunset-trees.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+ul:hover{
+   cursor:pointer;
+}
+.techImage{
+    height:25px;
+    margin-left:10px;
+}

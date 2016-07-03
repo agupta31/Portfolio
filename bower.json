@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "authors": [
+    "agupta31 <akash2989@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies":{
+        "angular":"latest",
+        "angular-route":"latest"
+    }
+}
