@@ -20,7 +20,7 @@ angular.module("myApp",["ngRoute"]).
 .controller("aboutMe_Ctrl",function($scope){
      var el=angular.element(document.querySelector(".carousel"));
     el.carousel({
-        interval:2000
+        interval:5000
     });
 })
 .controller("port_Ctrl",function(){

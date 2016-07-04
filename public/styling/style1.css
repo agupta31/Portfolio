@@ -15,9 +15,9 @@ body{
     padding:0;    
 }
 span{
-    color:#0066cc;
+    color:brown;
     font-size:25px;
-    font-style:italic;
+    font-family:'Passion One', cursive;
 }
 
 #mainSec{
@@ -44,4 +44,33 @@ label{
 }
 table th{
     color:coral;
+}
+.para{
+font-family: 'Dosis', sans-serif;
+}
+
+#imageGal{
+    margin-top:20px;
+}
+/*
+#imgSlider{
+    background:black;
+}
+*/
+#myCarousel{
+    text-align:center;
+}
+.carousel-inner .item img{
+    height:300px;
+}
+/*
+.carousel-inner .item h2{
+    color:#fff;
+}
+*/
+.carousel-caption{
+    position:relative;
+    left:auto;
+    right:auto;
+    color:black;
 }
