@@ -10,6 +10,19 @@ body{
 .nav li:hover{
     background:steelblue;
 }
+.jumbotron{
+    padding:0;
+    color:black;
+}
+.list-group{
+    margin-top:50px;
+}
+.list-group p{
+    font-weight:bold;
+}
+.table li{
+    font-weight: bold;
+}
 .col-md-4{
 text-align: center;
 
@@ -22,12 +35,54 @@ text-align: center;
 .col-md-4 p{
     color:black;
 }
+/*
 .col-md-6{
-/*    border:1px solid black;*/
+    border:1px solid black;
+}
+*/
+.caret{
+    margin-right:5px;
 }
 .inner{
     margin-top:40px;
 }
 .thumbnail{
     border:none;
+}
+
+.techImage{
+    height:25px;
+    margin-left:10px;
+    margin-bottom:5px;
+}
+li{
+    list-style-type:none;
+}
+label{
+    color:orange;
+}
+table th{
+    color:coral;
+}
+span{
+    color:forestgreen;
+    font-size:25px;
+    font-family:'Passion One', cursive;
+}
+
+#imageGal{
+    margin-top:20px;
+}
+
+#myCarousel{
+    text-align:center;
+}
+.carousel-inner .item img{
+    height:300px;
+}
+.carousel-caption{
+    position:relative;
+    left:auto;
+    right:auto;
+    color:black;
 }

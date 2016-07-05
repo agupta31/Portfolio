@@ -1,0 +1,19 @@
+body{
+    background:#fff;
+}
+.navbar-inverse{
+    background: rgba(0,0,0,1);
+}
+
+.formDiv{
+    width:60%;
+    margin-top:50px;
+}
+
+.heading{
+    
+    padding:0;
+    text-align: left;
+    max-width:1000px;
+    margin:auto;
+}

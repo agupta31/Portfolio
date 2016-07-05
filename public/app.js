@@ -13,6 +13,10 @@ angular.module("myApp",["ngRoute"]).
               templateUrl:"partials/portfolio.html",
               controller:"port_Ctrl"
      })
+     .when("/contact",{
+          templateUrl:"partials/contact.html",
+          controller:"contact_Ctrl"
+     })
 })
 .controller("appCtrl",function(){
     
@@ -26,9 +30,20 @@ angular.module("myApp",["ngRoute"]).
 .controller("port_Ctrl",function(){
     
 })
+
+.controller("contact_Ctrl",function(){
+    
+})
 .directive("navDirective",function(){
        return{
            restrict:"AE",
            templateUrl:"directives/navigation.html"
+       }
+})
+
+.directive("footerDirective",function(){
+       return{
+            restrict:"AE",
+            templateUrl:"directives/footer.html"
        }
 })

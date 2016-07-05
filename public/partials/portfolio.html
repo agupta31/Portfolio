@@ -5,9 +5,15 @@
   <head>
       <title>Portfolio page</title>
       <link href="../public/styling/style2.css" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
     </head>
     <body>
      <nav-directive></nav-directive>
+        
+        <div class="jumbotron">
+           <h3>My Portfolio</h3>
+        
+         </div>
         
         <div id="projects">
            <div class="container-fluid">
@@ -138,7 +144,125 @@
             
                 <div class="col-md-6">
                     
-                    
+                     <ul class="list-group">
+                         <li class="list-group-item" data-toggle="collapse" data-target="#demo">
+                            <img src="../images/caret.png" class="caret">
+                             <span>Education</span>
+                              <img src="../images/education.png" class="techImage">
+                         
+                                  <div id="demo" class="collapse">
+                                   <h2>Masters:</h2>
+                                   <label>College:</label><p>University of north carolina charlotte</p>
+                                    <label>City/State:</label><p>Charlotte-NC</p>  
+                                    <label>Degree:</label><p>Masters in electrical Engineering</p>
+                                    <label>Related courses:</label><p>Algorithms and data Structures</p>  
+                                    <label>years:</label><p>2013-2015</p>  
+                                      
+                                    <h2>Bachelors</h2>
+                                      <label>College:</label><p>Heritage Institute of Technology</p>
+                                      <label>City:</label><p>Kolkata-West Bengal</p>  
+                                     <label>Degree:</label><p>Bachelors in Applied Electronics and Instrumentation</p>
+                                      
+                                 </div> 
+                             </li>
+                         
+                         <li class="list-group-item" data-toggle="collapse" data-target="#tech">
+                           <img src="../images/caret.png" class="caret">
+                            <span>Technical Skills</span>
+                               <img src="../images/Technical.png" class="techImage">
+                            
+                             <div id="tech" class="collapse">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                          <th>Programming languages</th>
+                                           <th>Web technologies</th> 
+                                            <th>IDE'S</th>
+            
+                                        </tr>
+                                       <thead>     
+                                         <tbody>
+                                             <tr>
+                                                 <td>
+                                                    <li>Javascript</li>
+                                                     <li>C</li>
+                                                     <li>C#</li>
+                                                     <li>Java</li>
+                                                 </td>
+                                                 
+                                                 <td>
+                                                    <li>AngularJs</li>
+                                                     <li>ReactJs</li>
+                                                     <li>D3.js</li>
+                                                     <li>Restful Web services</li>
+                                                     <li>Asp.net MVC</li>
+                                                     <li>jQuery</li>
+                                                     <li>jQueryUi</li>
+                                                     <li>Bootstrap</li>
+                                                     <li>Node.js</li>
+                                                     <li>Express.js</li>
+                                                     <li>Jasmine.js</li>
+                                                     <li>JSON</li>
+                                                     <li>Xml</li>
+                                                     
+                                                 </td>
+                                                 <td>
+                                                    <li>Sublime text</li>
+                                                     <li>Brackets</li>
+                                                     <li>Atom</li>
+                                                     <li>Microsoft visual studio code</li>
+                                                     <li>Eclipse</li>
+                                                     <li>Intelli j</li>
+                                                     <li>Cloud 9 io</li>
+                                                 
+                                                 </td>
+                                        
+                                               </tr>
+                                             
+                                    
+                                        </tbody>
+                                  
+                                   </table>
+                             </div>
+                             
+                         </li>
+                         
+                         <li class="list-group-item" data-toggle="collapse" data-target="#work">
+                              <img src="../images/caret.png" class="caret">
+                              <span>Work Experience</span>
+                              <div id="work" class="collapse">
+                                  <label>Company:</label>
+                                   <p>Infosys Limited</p>
+                                  <label>Title:</label>
+                                  <p>Systems Engineer</p>
+                                  <label>Project:</label>
+                                  <p>Southern California Edison</p>
+                                  <label>Years:</label>
+                                  <p>2011-2013</p>
+                                  <label>Role:</label>
+                                   <ol>
+                                     <li>Developed a profile management system for internal employees using Angular.js,html and CSS </li>
+                                       <li>Developed and designed UI for bill payment and power outage modules</li>
+                                       
+                                       <li>Created web services in C# for end to end communication bewteen layers</li>
+                                       <li>Created test cases and performed unit testing in accordance with TDD architecture</li>
+                                        
+                                       <li>Increased front end efficiency by reducing page load time by 15% using page load optimization techniques. </li>
+                                       
+                                       <li>Ensured cross browser compatibility of application across different browser environments. </li>
+                                       
+                                       <li>Created responsive web pages using css3 media queries. </li>
+                                       
+                                       <li>Worked under the agile development life cycle implementing the scrum structure in project development. </li>
+                                    </ol>
+                             
+                             
+                               </div>
+                         
+                         </li>
+                        
+                         
+                    </ul>
             
                  </div>
                    
@@ -150,6 +274,8 @@
         
         
          </div>
+        
+        <footer-directive></footer-directive>
         
     </body>
 
