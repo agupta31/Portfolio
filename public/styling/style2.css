@@ -17,6 +17,10 @@ body{
 .list-group{
     margin-top:50px;
 }
+.list-group li{
+    cursor:pointer;
+}
+
 .list-group p{
     font-weight:bold;
 }
@@ -55,9 +59,11 @@ text-align: center;
     margin-left:10px;
     margin-bottom:5px;
 }
+/*
 li{
     list-style-type:none;
 }
+*/
 label{
     color:orange;
 }
